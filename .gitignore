@@ -8,7 +8,7 @@
 *.orig
 
 #maven ignore
-target/
+**/target/
 
 #eclipse ignore
 .settings/
@@ -31,5 +31,9 @@ target/
 # system ignore
 .DS_Store
 Thumbs.db
+
+**/mvnw
+**/mvnw.cmd
+**/.mvn
 
 
